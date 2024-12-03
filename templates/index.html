@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Price</title>
+</head>
+<body>
+    <h2>Enter Details to Predict Price</h2>
+    <form method="POST">
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country" required><br>
+        <label for="revenue_ttm">Revenue TTM:</label><br>
+        <input type="number" step="any" id="revenue_ttm" name="revenue_ttm" required><br>
+        <label for="earnings_ttm">Earnings TTM:</label><br>
+        <input type="number" step="any" id="earnings_ttm" name="earnings_ttm" required><br>
+        <label for="marketcap">Market Cap:</label><br>
+        <input type="number" step="any" id="marketcap" name="marketcap" required><br>
+        <label for="pe_ratio_ttm">PE Ratio TTM:</label><br>
+        <input type="number" step="any" id="pe_ratio_ttm" name="pe_ratio_ttm" required><br>
+        <label for="dividend_yield_ttm">Dividend Yield TTM:</label><br>
+        <input type="number" step="any" id="dividend_yield_ttm" name="dividend_yield_ttm" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    <h3>{{ result }}</h3>
+</body>
+</html>
