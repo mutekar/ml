@@ -6,7 +6,7 @@ import json
 app = Flask(__name__)
 
 # Load the model, scaler, and country mapping
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("best_model.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
 with open("country_mapping.json", "r") as f:
     country_mapping = json.load(f)
