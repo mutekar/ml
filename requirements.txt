@@ -1,0 +1,21 @@
+Flask==2.2.3              # Web framework
+numpy==1.24.3             # Numerical computations
+pandas==2.1.1             # Data manipulation
+matplotlib==3.8.2         # Data visualization
+seaborn==0.12.3           # Advanced data visualization
+scipy==1.11.3             # Scientific computations
+scikit-learn==1.2.2       # Machine learning algorithms
+joblib==1.3.0             # Model persistence and parallel processing
+statsmodels==0.14.0       # Statistical modeling
+plotly==5.16.1            # Interactive visualizations
+gunicorn==20.1.0          # WSGI HTTP server
+matplotlib==3.8.0
+ml-dtypes==0.2.0
+pandas==2.2.2
+plotly==5.24.1
+scikit-learn==1.5.2
+scipy==1.13.1
+seaborn==0.13.2
+sklearn-pandas==2.2.0
+statsmodels==0.14.4
+
